@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+
+body {
+  background-color:aqua;
+  padding: 20px;
+  color: #222;
+}
+
+
+.Jubel-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #222;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.Jubel-img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #222;
+  display: block;
+}
+
+
+.Jubel-img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #222;
+  display: block;
+}
+
+
+.Jubel-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1.5px solid #222;
+  border-radius: 50%;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+
+.Jubel-text-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+
+.Jubel-text-line {
+  font-size: 14px;
+  border-bottom: 1.5px solid #222;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+
+.Jubel-pill-title,
+.Jubel-pill-small,
+.Jubel-card-title {
+  display: inline-block;
+  border: 2px solid #222;
+  border-radius: 20px;
+  padding: 5px 18px;
+  font-size: 13px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+
+.Jubel-header {
+  border: 2px solid #222;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.Jubel-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+
+.Jubel-nav-pill {
+  border: 2px solid #222;
+  border-radius: 20px;
+  padding: 6px 24px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.Jubel-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+
+.Jubel-nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1.5px solid #222;
+  padding-bottom: 3px;
+}
+
+
+.Jubel-logo-box {
+  width: 110px;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+
+.Jubel-hero-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+}
+
+
+.Jubel-hero-left {
+  border: 2px solid #222;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+
+.Jubel-hero-left .Jubel-pill-title {
+  align-self: center;
+}
+
+
+.Jubel-circle-box {
+  width: 140px;
+  height: 140px;
+}
+
+
+.Jubel-circle-texts {
+  width: 100%;
+}
+
+
+.Jubel-img-circle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #222;
+  border-radius: 50%;
+}
+
+
+.Jubel-hero-right {
+  border: 2px solid #222;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.Jubel-hero-header {
+  display: flex;
+  align-items: center;
+}
+
+
+.Jubel-hero-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 100px;
+}
+
+
+.Jubel-middle-3sec {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 15px;
+}
+
+
+.Jubel-mid-left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.Jubel-mid-box,
+.Jubel-mid-right-col {
+  border: 2px solid #222;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.Jubel-mid-right-col {
+  justify-content: space-between;
+}
+
+
+.Jubel-pill-wide {
+  border: 2px solid #222;
+  border-radius: 20px;
+  padding: 6px 25px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 65%;
+}
+
+
+.Jubel-pill-full {
+  border: 2px solid #222;
+  border-radius: 20px;
+  padding: 6px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.Jubel-text-sub {
+  font-size: 13px;
+  margin-left: 16px;
+  border-bottom: 1.5px solid #222;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+}
+
+
+.Jubel-list-img-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.Jubel-row-item {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+
+.Jubel-row-img {
+  height: 55px;
+}
+
+
+.Jubel-bottom-split {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+
+.Jubel-two-square-imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+
+.Jubel-two-square-imgs .Jubel-img {
+  height: 120px;
+}
+
+
+.Jubel-two-text-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.Jubel-right-stack-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.Jubel-plain-rect {
+  border: 2px solid #222;
+  height: 75px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #555;
+}
+
+
+.Jubel-cards-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+
+.Jubel-card-box {
+  border: 2px solid #222;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+
+.Jubel-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.Jubel-footer {
+  border: 2px solid #222;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+}
+
+
+.Jubel-footer-pill {
+  border: 2px solid #222;
+  border-radius: 20px;
+  padding: 6px 25px;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+
+.Jubel-footer-text {
+  width: 80%;
+  border-bottom: 1.5px solid #222;
+  padding-bottom: 4px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .Jubel-middle-3sec,
+  .Jubel-row-item,
+  .Jubel-bottom-split,
+  .Jubel-hero-section,
+  .Jubel-cards-section {
+    grid-template-columns: 1fr;
+  }
+  .Jubel-header, .Jubel-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Jubel-pill-wide {
+    width: 100%;
+  }
+  .Jubel-footer-text {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+
+
